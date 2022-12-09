@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.caja{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    
+    width: 430px;
+    height: 650px;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+}
+.qr{
+display: flex;
+margin: auto;
+width: 390px;
+align-items: center;
+border-radius: 5%;
+margin-top: 20px;
+}
+.parrafo{
+    display: flex;
+    margin: auto;
+   margin-top: 30px;
+   margin-bottom: 25px;
+   width: 370px;
+   height: 70px;
+   
+   font-family: 'Outfit', sans-serif;
+   color: hsl(218, 44%, 22%);
+}
+.info{
+    display: flex;
+    margin: auto;
+   margin-top: 0px;
+   width: 350px;
+   height: 70px;
+   font-size: 15px;
+   color: hsl(220, 15%, 55%);
+   letter-spacing: 2px;
+   font-family: 'Outfit', sans-serif;
+   font-variant-caps: petite-caps;
+   
+}
